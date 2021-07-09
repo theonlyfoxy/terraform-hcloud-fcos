@@ -1,8 +1,7 @@
-# Fedora CoreOS at Hetzner Cloud
+# Fedora CoreOS on Hetzner Cloud
 
 Install [Fedora CoreOS](https://docs.fedoraproject.org/en-US/fedora-coreos/)
 via [terraform](https://www.terraform.io) on Hetzner Cloud.
-
 
 ## What?
 
@@ -36,6 +35,6 @@ An `Ignition` `config.yaml` file in the directory with your above `main.tf` is
 sent to the server and processed there by `Butane`.
 
 A 4GB VM is required to complete the initial install for the ISO and docker to
-fit in memory.  After install you can use `hcloud server change-type` to redice
+fit in memory.  After install you can use `hcloud server change-type` to reduce
 the size if required.
 
